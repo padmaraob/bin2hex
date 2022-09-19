@@ -23,10 +23,10 @@ int main(int argc, char *argv[])
 		printf("Error opening file %s\n", argv[1]);
 		return -1;
 	}
-	fp1 = fopen("./mpfs_dtb.h", "w+");
+	fp1 = fopen("./mpfs-dtb.h", "w+");
 	if (!fp1)
 	{
-		printf("Error opening file mpfs_dtb.h");
+		printf("Error opening file mpfs-dtb.h");
 		return -1;
 	}
 
